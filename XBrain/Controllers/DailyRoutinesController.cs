@@ -11,7 +11,7 @@ namespace XBrain.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DailyRoutinesController : Controller
+    public class DailyRoutinesController : ControllerBase
     {
         private readonly XBrainContext _context;
 
