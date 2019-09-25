@@ -17,6 +17,7 @@ namespace XBrain.Models
 
         public virtual DbSet<DailyActivity> DailyActivity { get; set; }
         public virtual DbSet<DailyRoutine> DailyRoutine { get; set; }
+        public virtual DbSet<SleepingTime> SleepingTime { get; set; }
         public virtual DbSet<XbrainUser> XbrainUser { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -64,6 +65,17 @@ namespace XBrain.Models
                     .HasForeignKey(d => d.UserId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__DailyRout__Actua__3B75D760");
+            });
+
+            modelBuilder.Entity<SleepingTime>(entity =>
+            {
+                entity.Property(e => e.DateAchieve).HasColumnType("date");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.SleepingTime)
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__SleepingT__UserI__49C3F6B7");
             });
 
             modelBuilder.Entity<XbrainUser>(entity =>

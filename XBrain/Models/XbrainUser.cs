@@ -9,6 +9,7 @@ namespace XBrain.Models
         {
             DailyActivity = new HashSet<DailyActivity>();
             DailyRoutine = new HashSet<DailyRoutine>();
+            SleepingTime = new HashSet<SleepingTime>();
         }
 
         public int Id { get; set; }
@@ -21,5 +22,6 @@ namespace XBrain.Models
 
         public virtual ICollection<DailyActivity> DailyActivity { get; set; }
         public virtual ICollection<DailyRoutine> DailyRoutine { get; set; }
+        public virtual ICollection<SleepingTime> SleepingTime { get; set; }
     }
 }

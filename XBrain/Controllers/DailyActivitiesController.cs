@@ -20,6 +20,15 @@ namespace XBrain.Controllers
             _context = context;
         }
 
+
+        [HttpGet("byuser")]
+        public ActionResult<IEnumerable<DailyActivity>> GetDailyActivityByUserIdAndDate(int id, String date)
+        {
+            DateTime dt = DateTime.Parse(date);
+            return _context.DailyActivity.Where(p => p.UserId == id && p.DateAchieve == dt).ToList();
+        }
+
+
         // GET: api/DailyActivities
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DailyActivity>>> GetDailyActivity()

@@ -24,6 +24,7 @@ namespace XBrain.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DailyRoutine>>> GetDailyRoutine()
         {
+            Console.WriteLine("get all");
             return await _context.DailyRoutine.ToListAsync();
         }
 
@@ -73,10 +74,13 @@ namespace XBrain.Controllers
 
         // POST: api/DailyRoutines
         [HttpPost]
-        public async Task<ActionResult<DailyRoutine>> PostDailyRoutine(DailyRoutine dailyRoutine)
+        public async Task<ActionResult<DailyRoutine>> PostDailyRoutine(int userId, DailyRoutine dailyRoutine)
         {
+            Console.WriteLine("Go for it:"+userId);
+            dailyRoutine.UserId = userId;
             _context.DailyRoutine.Add(dailyRoutine);
             await _context.SaveChangesAsync();
+            Console.WriteLine("Insert Ok");
 
             return CreatedAtAction("GetDailyRoutine", new { id = dailyRoutine.Id }, dailyRoutine);
         }

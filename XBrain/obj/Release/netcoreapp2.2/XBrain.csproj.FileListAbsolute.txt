@@ -1,0 +1,17 @@
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\appsettings.Development.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\appsettings.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\XBrain.deps.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\XBrain.runtimeconfig.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\XBrain.runtimeconfig.dev.json
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\XBrain.dll
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\bin\Release\netcoreapp2.2\XBrain.pdb
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.csprojAssemblyReference.cache
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.csproj.CoreCompileInputs.cache
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.RazorAssemblyInfo.cache
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.RazorAssemblyInfo.cs
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.AssemblyInfoInputs.cache
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.AssemblyInfo.cs
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.RazorTargetAssemblyInfo.cache
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.dll
+C:\Users\nguye\source\IE_Projects\IE_Project_WebAPI\XBrain\obj\Release\netcoreapp2.2\XBrain.pdb

@@ -41,6 +41,12 @@ namespace XBrain.Controllers
             return xbrainUser;
         }
 
+        [HttpGet("all/{id}")]
+        public XbrainUser GetUserWithActivities(int id)
+        {
+            return _context.XbrainUser.Where(p =>p.Id == id).Include(p => p.DailyActivity).First();
+        }
+
         // PUT: api/XbrainUsers/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutXbrainUser(int id, XbrainUser xbrainUser)
