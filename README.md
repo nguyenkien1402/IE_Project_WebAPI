@@ -7,7 +7,7 @@ This a a web service API that I developed in 12 weeks program of IE, the mobile 
 The whole project is intened to develop a mobile application under the theme mental health.
 We work as a group of 4 and we've done almost everything from business analyst, target customer, customer insight to develop application with the help of Agile and Scrum. 
 
-As a core developer in the group, I responded for developing an Android mobile application, the RESTful API Webservice by using ASP.NET Core and an API for movie recommendation, the repository about how i made movie recommendation service from getting data, making a recommendation algorithm to deploy to Google App Engine can be found [here](link)
+As a core developer in the group, I responded for developing an Android mobile application, the RESTful API Webservice by using ASP.NET Core and an API for movie recommendation, the repository about how i made movie recommendation service from getting data, making a recommendation algorithm to deploy to Google App Engine can be found [here](https://github.com/nguyenkien1402/IE_Project_Movie_Recommendation)
 
 ------
 
