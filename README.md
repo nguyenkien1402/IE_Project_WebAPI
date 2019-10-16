@@ -19,17 +19,17 @@ As i used ASP.NET Core to develop RESTful API, you can deploy the service to any
 1. Clone the repository
 2. Register to the Microsoft Azure Cloud Platform.
 3. Create SQL Server Database in the Cloud and note down all of this information:
-    •	Database Name 
-    •	Server Name 
-    •	Server admin login
-    •	Password
+    -	Database Name 
+    -	Server Name 
+    -	Server admin login
+    -	Password
 4. Open SQL Server Management Studio and connect to the SQL Server you've created above 
 5. Open the SQL script in the repository folder and run the script to init the schema
 6. Import project to Visual Studio, open the file named "appsettings.json " and replace all the parameter bellow with your parameters.
-  •	<your-db-server> = <your database server name. E.g: liberzy.database.windows.net >
-  •	<your-database> = <your database name. E.g: LiberzyDatabase>
-  •	<your-identity> = <your admin login. E.g: liberzyadmin>
-  •	<your-password> = <your admin password. E.g: liberzypassword>
+  -     your-db-server = your database server name. E.g: liberzy.database.windows.net
+  -     your-database  = your database name. E.g: LiberzyDatabase
+  -     your-identity =  your admin login. E.g: liberzyadmin
+  -     your-password =  your admin password. E.g: liberzypassword
 7. Choose the project and choose published
 8. Use your Azure account you've registered above and follow the instruction to publish the web service.
  
